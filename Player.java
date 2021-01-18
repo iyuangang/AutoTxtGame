@@ -20,18 +20,23 @@ public class Player extends Character implements AttackJudge {
                         case 0 :
                                 finalAttack += skill1_player.attack;
                                 attackName = skill1_player.name;
+                                break;
                         case 1 :
                                 finalAttack += skill2_player.attack;
                                 attackName = skill2_player.name;
+                                break;
                         case 2 :
                                 finalAttack += skill3_player.attack;
                                 attackName = skill3_player.name;
+                                break;
                         case 3 :
                                 finalAttack += skill4_player.attack;
                                 attackName = skill4_player.name;
+                                break;
                         case 4 :
                                 finalAttack += skill5_player.attack;
                                 attackName = skill5_player.name;
+                                break;
                         case 5 :
                                 attackName = "普通一击";
                 }

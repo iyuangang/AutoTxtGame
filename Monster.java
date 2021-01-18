@@ -11,18 +11,22 @@ public class Monster extends Character implements AttackJudge {
                                 this.equip = equip1.name;
                                 this.attack += equip1.attack;
                                 this.define += equip1.define;
+                                break;
                         case 1 :
                                 this.equip = equip2.name;
                                 this.attack += equip2.attack;
                                 this.define += equip2.define;
+                                break;
                         case 2 :
                                 this.equip = equip3.name;
                                 this.attack += equip3.attack;
                                 this.define += equip3.define;
+                                break;
                         case 3 :
                                 this.equip = equip4.name;
                                 this.attack += equip4.attack;
                                 this.define += equip4.define;
+                                break;
                         case 4 :
                                 this.equip = equip5.name;
                                 this.attack += equip5.attack;
@@ -40,18 +44,23 @@ public class Monster extends Character implements AttackJudge {
                         case 0 :
                                 finalAttack += skill1_monster.attack;
                                 attackName = skill1_monster.name;
+                                break;
                         case 1 :
                                 finalAttack += skill2_monster.attack;
                                 attackName = skill2_monster.name;
+                                break;
                         case 2 :
                                 finalAttack += skill3_monster.attack;
                                 attackName = skill3_monster.name;
+                                break;
                         case 3 :
                                 finalAttack += skill4_monster.attack;
                                 attackName = skill4_monster.name;
+                                break;
                         case 4 :
                                 finalAttack += skill5_monster.attack;
                                 attackName = skill5_monster.name;
+                                break;
                         case 5 :
                                 attackName = "重力一击";
                 }
